@@ -1,0 +1,22 @@
+a {
+    float: left;
+    padding: 14px 16px;
+    font-size: 20px;
+    font-family: Copperplate;
+    color: White;
+    background: RGB(0, 155, 119);
+    border-style: double;
+    border-color: black;
+    border-radius: 50px;
+    margin: 30px;
+    }
+
+label {
+    float: left;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+
+}
