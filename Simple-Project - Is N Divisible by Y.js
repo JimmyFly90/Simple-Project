@@ -6,7 +6,11 @@ function isDivisible(n, x, y) {
     }
   };
 
-
+  function generate() {
+    let x = document.getElementById("firstNumber").value;
+    let y = document.getElementById("secondNumber").value;
+    document.getElementById("answer").innerHTML = (isDivisible(x, y));
+};
   
   console.log(isDivisible(3, 3, 4)); 
   console.log(isDivisible(12, 3, 4)); 

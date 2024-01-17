@@ -9,14 +9,22 @@
 </head>
 
 <body>
-    <nav>
-    <a href="Simple-Project.html">Home</a>
-    <a href="Fizz-Buzz.html">Fizz Buzz</a>
-    <a href="Even-or-Odd.html">Even or Odd</a> 
-    <nav>
-    <h1>Is n divisible by y?</h1>
+    <div>
+        <nav>
+            <a href="Simple-Project.html">Home</a>
+            <a href="Fizz-Buzz.html">Fizz Buzz</a>
+            <a href="Even-or-Odd.html">Even or Odd</a> 
+        <nav>
+    </div>
+    <div>
+        <h1>Is n divisible by y?</h1>
+        <p>What number would like to use? </p>
+        <input type="number" id="firstNumber" name="firstNumber"><br>
+        <p>And which number are we checking if it is divisible by? </p>
+        <input type="number" id="secondNumber" name="secondNumber"><br>
+        <button onclick="generate()">Go</button>
+    </div>
+    <p id="answer"></p>
     <script src="Simple-Project - Is N Divisible by Y.js"></script>
-    <label for="number">What number would like to try? </label>
-    <input type="text" id="number" name="number"><br>
-    <button>Go</button>
+
 </body>
