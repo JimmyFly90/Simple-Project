@@ -4,23 +4,21 @@
 
 function generate() {
     let x = document.getElementById("typedNumber").value;
-    document.getElementById("answer").innerHTML = (FizzBuzz(x))
-    ;
+    for (let i = 1; i < x; i++) {
+        document.getElementById("answer").innerHTML += ` ${FizzBuzz(i)}, `;
+    }
 };
 
 function FizzBuzz(number) {
-    for (let i = 0; i < number; i++) {
     if (number % 15 == 0) {
-        return ("FizzBuzz")
+        return (" FizzBuzz ")
     }
     else if (number % 3 == 0) {
-        return ("Fizz")
+        return (" Fizz ")
     } else if (number % 5 == 0) {
-        return ("Buzz")
+        return (" Buzz ")
     }
     else {
         return(number);
     }
 }
-}
-
